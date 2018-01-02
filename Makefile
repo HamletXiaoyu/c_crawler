@@ -4,8 +4,9 @@ spider:
 
 install: spider
 
+.PHONY : clean
 clean:
-	rm *.d
-	rm -rf *.dSYM
-	rm spider
+	-rm *.d
+	-rm -rf *.dSYM
+	-rm spider
 
